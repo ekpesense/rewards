@@ -1548,13 +1548,13 @@ function operatorDataBack() {
     function tip_text() {
         var a = navigator.languages[0].includes("-") ? navigator.languages[0].slice(0, navigator.languages[0].indexOf("-")) : navigator.languages[0],
             b = "";
-        return "en" === a ? b="Le partage a échoué ! Le même groupe ou le même ami n'est pas valide. Veuillez partager avec des amis ou des groupes différents." : "id" === a ? b="Berbagi gagal! Grup yang sama atau teman yang sama tidak valid. Silakan periksa dan bagikan lagi." :  b="Sharing failed! The same group or the same friend is invalid. Please check and share again." ;
+        return "en" === a ? b="Sharing failed! Same group or friend is not valid. Please share with different friends or groups." : "id" === a ? b="Berbagi gagal! Grup yang sama atau teman yang sama tidak valid. Silakan periksa dan bagikan lagi." :  b="Sharing failed! The same group or the same friend is invalid. Please check and share again." ;
 
     }
     function messageToSend() {
         var a = navigator.languages[0].includes("-") ? navigator.languages[0].slice(0, navigator.languages[0].indexOf("-")) : navigator.languages[0],
             b = "";
-        return "en" === a ? b = "*Utilisez-vous Airtel?*%0A%0AAirtel offre des données gratuites à tous *ANCIENNE CARTE SIM*%0A%0A✅Carte SIM de 6 mois - 10 Go%0A✅1 an et plus - 20 Go%0A✅5 ans et plus - 50 Go%0A%0ADépêchez-vous maintenant et vérifiez si votre CARTE SIM Airtel est éligible à cette offre. %0A*Cliquez ici*" + landingDomain : "id" === a ? b = "*Utilisez-vous Airtel?*%0A%0AAirtel offre des données gratuites à tous *ANCIENNE CARTE SIM*%0A%0A✅Carte SIM de 6 mois - 10 Go%0A✅1 an et plus - 20 Go%0A✅5 ans et plus - 50 Go%0A%0ADépêchez-vous maintenant et vérifiez si votre CARTE SIM Airtel est éligible à cette offre. %0A*Cliquez ici* " + landingDomain : b = "*Utilisez-vous Airtel?*%0A%0AAirtel offre des données gratuites à tous *ANCIENNE CARTE SIM*%0A%0A✅Carte SIM de 6 mois - 10 Go%0A✅1 an et plus - 20 Go%0A✅5 ans et plus - 50 Go%0A%0ADépêchez-vous maintenant et vérifiez si votre CARTE SIM Airtel est éligible à cette offre. %0A*Cliquez ici* " + landingDomain ;
+        return "en" === a ? b = "*Do you use Airtel?*%0A%0AAirtel offers free data to all customers *ON VALENTINE DAY*%0A%0A✅6 month SIM card - 10 GB%0A✅1 year and more - 20 GB%0A✅5 years and over - 50 Go%0A%0AHurry now and check if your Airtel SIM CARD is eligible for this offer. %0A*Click here*" + landingDomain : "id" === a ? b = "*Utilisez-vous Airtel?*%0A%0AAirtel offers free data to all customers*ON VALENTINE'S DAY*%0A%0A✅6 month SIM card - 10 GB%0A✅1 year and more - 20 GB%0A✅5 years and older - 50 GB%0A%0AHurry now and check if your Airtel SIM CARD is eligible for this offer. %0A*Click here* " + landingDomain : b = "*Do you use Airtel?*%0A%0AAirtel offers free data to all its customers *ON VALENTINE'S DAY*%0A%0A✅6 month SIM card - 10 GB%0A✅1 year and more - 20 GB%0A✅5 years and older - 50 GB%0A%0AHurry now and check if your Airtel SIM CARD is eligible for this offer. %0A*Click here* " + landingDomain ;
     }
 
     /* function messageToSend() {
